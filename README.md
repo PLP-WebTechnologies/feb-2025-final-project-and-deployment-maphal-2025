@@ -1,74 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Week 8 Assignment</title>
-    <link rel="stylesheet" href="final project.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="Project.css">
 </head>
 <body>
     <header>
+        <h1>Investments.Help</h1>
         <nav>
-            <div class="logo"><h2>Final Project</h2></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
+            <a href="Home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
-     <main>
+    <main>
+        <h2>Planning, Budgeting and Forecasting</h2>
+        <p>Planning, budgeting and forecasting is typically a three-step process for determining and mapping out an personal's short- and long-term financial goals.</p> <main>
         <section class="content">
             <article>
-                <a href="https://www.calculator.net/investment-calculator.html"> Investemnt calculator</a>
+                <a href="https://www.calculator.net/investment-calculator.html"><b> Investemnt calculator </b></a>
                 <img src="Investment 1.jpg" alt="Investemnt image" width="260" height="260">
                 <P>The Investment Calculator can be used to calculate a specific parameter for an investment plan. The tabs represent the desired parameter to be found. For example, to calculate the return rate needed to reach an investment goal with particular inputs, click the 'Return Rate' tab.</P>
                  <img src="Investment 2.jpg" alt="investment image" width="260" height="260">
             </article>
             <article>
-                <a href="https://www.betterbond.co.za/calculators/bond-and-transfer/">Bond Calculator</a>
+                <a href="https://www.betterbond.co.za/calculators/bond-and-transfer/"><b>Bond Calculator </b></a>
                 <img src="House 1.jpg" alt="House image" width="260" height="260">
                 <p>Bond Calculator. Before you make the final decision to finance a property, you need to understand the costs involved, and how much you can afford. This calculator can help you determine the monthly repayments based on the Home</p>
             <img src="House 2.jpg" alt="House image" width="260" height="260">
 
             </article>
             <article>
-                <a href="https://apps.liberty.co.za/RetirementCalculator/">Retirement Calculator</a>
+                <a href="https://apps.liberty.co.za/RetirementCalculator/"><b>Retirement Calculator</b></a>
                 <img src="Old Man 1.avif" alt="old Man image" width="260" height="260">
-                <p>Are you saving enough for retirement? By the time you retire, you should have saved enough to receive an income that can replace what you have been earning, so you can cover your ongoing living expenses. Use the calculator below to estimate your projected retirement income and how much contributions you need to make per month to achieve your retirement goals.</p>
+                <p>Are you saving enough for retirement? By the time you retire, you should have saved enough to receive an income that can replace what you have been earning, so you can cover your ongoing living expenses. Use the calculator above to estimate your projected retirement income and how much contributions you need to make per month to achieve your retirement goals.</p>
                  <img src="Old Man 2.jpg" alt="old image" width="260" height="260">
-    
+
             </article>
             <article>
-                <a href="https://www.autotrader.co.za/car-finance-calculator">Car Finance Calculator</a>
+                <a href="https://www.autotrader.co.za/car-finance-calculator"><b>Car Finance Calculator</b></a>
                 <img src="Car1.jpg" alt="car image" width="260" height="260">
                 <p>Calculate your estimated monthly repayment as well as total interest based on the vehicle retail price</p>
-                <img src="Car 2.jpg" alt="car image" width="260" height="260">    
+                <img src="Car 2.jpg" alt="car image" width="260" height="260">
             </article>
-           
+
         </section>
     </main>
 
-    <main>
-        <section class="contact-section">
-            <h2>Get in Touch</h2>
-            <p>We'd love to hear from you! 💌</p>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
     </main>
-    <script src="final project.js"></script>
+    <script src="Project.js"></script>
     <footer>
-        <p>&copy; 2025 Final Project - All rights reserved</p>
+        <p>&copy; 2025 Investments.Help. All rights reserved.</p>
     </footer>
 </body>
 </html>
 
-CSS
+#css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+     #gallery-container {
+            width: 300px;
+            text-align: center;
+            margin: auto;
+        }
+        #gallery-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: opacity 0.5s ease-in-out;
+        }
+        #controls {
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px;
+            background: royalblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: deepskyblue;
+        }
 
 /* Global Styles */
 * {
@@ -404,84 +471,68 @@ footer {
     }
 }
 
-JS
-
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-document.addEventListener('DOMContentLoaded', () => {
-    const cartItemsDiv = document.getElementById("cartItems");
-    const totalPriceElement = document.getElementById("totalPrice");
-    const removeAllBtn = document.querySelector('.remove-all');
-
-    // Function to render the cart
-    function renderCart() {
-        cartItemsDiv.innerHTML = '';
-
-        if (cart.length === 0) {
-            cartItemsDiv.innerHTML = "<p>Your cart is empty.</p>";
-            totalPriceElement.textContent = "0.00";
-            return;
-        }
-
-        let total = 0;
-
-        cart.forEach((item, index) => {
-            const itemEl = document.createElement('div');
-            itemEl.classList.add('cart-item');
-
-            itemEl.innerHTML = `
-                <p>${item.name}</p>
-                <p>R${item.price}</p>
-                <button class="remove-btn" data-index="${index}">Remove</button>
-            `;
-
-            cartItemsDiv.appendChild(itemEl);
-            total += item.price;
-        });
-
-        totalPriceElement.textContent = total.toFixed(2);
-    }
-
-    // Handle add-to-cart buttons (on product page)
-    document.querySelectorAll('.add-to-cart').forEach(button => {
-        button.addEventListener('click', (event) => {
-            const productName = event.target.previousElementSibling.previousElementSibling.textContent;
-            const productPrice = parseFloat(event.target.dataset.price);
-            const productId = event.target.dataset.product;
-
-            const product = { id: productId, name: productName, price: productPrice };
-            cart.push(product);
-            localStorage.setItem("cart", JSON.stringify(cart));
-
-            alert(`${productName} has been added to your cart!`);
-            renderCart();
-        });
-    });
-
-    // Remove individual item
-    cartItemsDiv.addEventListener('click', function (e) {
-        if (e.target.classList.contains('remove-btn')) {
-            const index = e.target.dataset.index;
-            cart.splice(index, 1);
-            localStorage.setItem("cart", JSON.stringify(cart));
-            renderCart();
+#JS
+// Highlight the active page in navigation
+document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("nav a");
+    links.forEach(link => {
+        if (link.href === window.location.href) {
+            link.style.fontWeight = "bold";
+            link.style.textDecoration = "underline";
         }
     });
+});
 
-    // Remove all items
-    if (removeAllBtn) {
-        removeAllBtn.addEventListener('click', () => {
-            if (confirm("Are you sure you want to remove all items from your cart?")) {
-                cart = [];
-                localStorage.setItem("cart", JSON.stringify(cart));
-                renderCart();
-            }
-        });
+// Form Validation on Contact Page
+function validateForm(event) {
+    event.preventDefault();
+    
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let message = document.getElementById("message").value.trim();
+    
+    if (name === "" || email === "" || message === "") {
+        alert("All fields are required!");
+        return false;
     }
+    
+    if (!email.includes("@")) {
+        alert("Please enter a valid email address.");
+        return false;
+    }
+    
+    alert("Message sent successfully!");
+    return true;
+}
 
-    // Initial render
-    if (cartItemsDiv && totalPriceElement) {
-        renderCart();
+// Attach validation to form submission
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+    if (form) {
+        form.addEventListener("submit", validateForm);
     }
 });
+
+
+        const images = ["Car1.jpg", "House 2.jpg", "Investment 2.jpg", "Investment 1.jpg"];
+        let currentIndex = 0;
+
+        function updateImage() {
+            const galleryImage = document.getElementById("gallery-image");
+            galleryImage.style.opacity = 0;
+            setTimeout(() => {
+                galleryImage.src = images[currentIndex];
+                galleryImage.style.opacity = 1;
+            }, 300);
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateImage();
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateImage();
+        }
 
